@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-+kbnx7ct_z6+tr#fm*ocpmc6+omz0u_+qe)pdgahuw4(r_e61(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-LLOWED_HOSTS = ['https://products-backend-42ks.onrender.com','now.sh','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['https://products-backend-42ks.onrender.com','now.sh','127.0.0.1','localhost']
 
 
 import dj_database_url
