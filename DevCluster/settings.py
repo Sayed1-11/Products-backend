@@ -68,7 +68,7 @@ ROOT_URLCONF = 'DevCluster.urls'
 CORS_ORIGIN_ALLOW_ALL = True
 # CORS_ALLOW_ALL_ORIGINS=True
 
-CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:5500/']
+CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:5500/','https://porducts-frontend.onrender.com']
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
