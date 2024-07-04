@@ -107,7 +107,6 @@ PyJWT
 python-crontab
 python-dateutil
 python-json-logger
-pywinpty
 PyYAML
 pyzmq
 qtconsole
