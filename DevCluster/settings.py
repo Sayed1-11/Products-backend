@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+kbnx7ct_z6+tr#fm*ocpmc6+omz0u_+qe)pdgahuw4(r_e61('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 LLOWED_HOSTS = ['.vercel.app','now.sh','127.0.0.1','localhost']
 
@@ -91,16 +91,16 @@ AUTH_USER_MODEL = 'Users.User'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'UFMyLSxpslMVKyygtzWVjCThCeXheQIN',
-        'HOST': 'viaduct.proxy.rlwy.net',
-        'PORT': '51006',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'railway',
+#         'USER': 'postgres',
+#         'PASSWORD': 'UFMyLSxpslMVKyygtzWVjCThCeXheQIN',
+#         'HOST': 'viaduct.proxy.rlwy.net',
+#         'PORT': '51006',
+#     }
+# }
 
 DATABASES = {
     'default': {
